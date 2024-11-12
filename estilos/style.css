@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font)
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+--font:'Inter';
+}
+body{
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  background-color: hsl(0, 0%, 12%);
+  width: 330px;
+  height:590px ;
+  border-radius: 2vh;
+}
+figure > img{
+  display:block;
+  width: 100px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50vh;
+  margin-bottom: 18px;
+}
+h1{
+  display: flex;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font);
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.p1{
+  display: flex;
+  color:yellow;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.p2{
+  display: flex;
+  color:white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 10%;
+}
+section{
+  display: block;
+  max-width: 70vw;
+  max-height: 44vh;
+  margin: auto;
+  
+}
+ul > li{
+  background-color: hsl(0, 0%, 20%);
+  display:flex;
+  width: 105%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -8px;
+  margin-bottom: 5%;
+  list-style-type: none;
+  border-radius: 1vh;
+}
+ul > li > a{
+  display:flex;
+  color: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 4%;
+  border-radius: 1vh;
+}
+a:hover{
+  background-color: yellow;
+  color: black;
+}
